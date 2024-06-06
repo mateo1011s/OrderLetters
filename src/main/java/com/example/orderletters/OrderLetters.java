@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 public class OrderLetters {
     public static void main(String[] args) {
-        System.out.println("This code will help you to order numbers inside an array");
+        System.out.println("This code will help you to order the letters inside an array");
         char[] array = {'z','b','e','f','a','c','D'};
         System.out.println();
         System.out.println("For now your array is:");
@@ -39,7 +39,7 @@ public class OrderLetters {
             }
         }
         System.out.println();
-        System.out.println("The array ordered from smallest to largest is: ");
+        System.out.println("The array ordered from a to z is: ");
         for (int k=0;k< array.length;k++) {
             System.out.print(array[k]+" ");
         }
